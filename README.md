@@ -13,11 +13,18 @@ Nosso primeiro objetivo consiste em entender e estudar como funciona as entradas
 
 ## Tarefas
 [ ] Entender o processo de gerenciamento dos pequenos empreendedores e os problemas
+
 [ ] Criar um software que consiga ajudar nesse gerenciamento de micro-empresas
+
 [ ] Testar nosso produto com usuários e coletar os feedbacks
+
 ## Equipe
 João Mateus – Coordenador de mercado
+
 João Paulo - Coordenador de Marketing
+
 Luis Guilherme – Garantia de Qualidade
+
 João Emanoel - Designer
+
 Keirryson Raffael - Desenvolvedor Full Stack 
