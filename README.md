@@ -1,95 +1,219 @@
-<!--
-# SPDX-FileCopyrightText: Copyright 2025 Eden Emulator Project
-# SPDX-License-Identifier: GPL-3.0-or-later
+# Clean-Financy
 
-# SPDX-FileCopyrightText: 2018 yuzu Emulator Project
-# SPDX-License-Identifier: GPL-2.0-or-later
--->
-<!-- lang: en-GB -->
+## Sobre a Empresa
 
-<h1 align="center">
-  <br>
-  <a href="https://git.eden-emu.dev/eden-emu/eden"><img src="./dist/qt_themes/default/icons/256x256/eden.png" alt="Eden" width="200"></a>
-  <br>
-  <b>Eden</b>
-  <br>
-</h1>
+A Clean-Financy é um sistema de gestão financeira criado para pequenos comércios, comerciantes e micro-empresas.
 
-<h4 align="center"><b>Eden</b> is a free and opensource (FOSS) Switch 1 emulator, derived from Yuzu and Sudachi - started by developer Camille LaVey.
-It's written in C++ with portability in mind, with builds for Windows, Linux, macOS, Android, FreeBSD and more.
-</h4>
+A ideia nasceu de uma sprint de pesquisa em que a equipe estudou como pequenos negócios lidam com suas finanças. A partir disso, o projeto se transformou numa loja virtual que oferece acesso a um sistema desenhado para organizar o dia a dia do comércio, e não um produto físico.
 
-<p align="center">
-    </a>
-    <a href="https://discord.gg/HstXbPch7X">
-        <img src="https://img.shields.io/discord/1367654015269339267?color=5865F2&label=Eden&logo=discord&logoColor=white"
-            alt="Discord">
-    </a>
-    <a href="https://stt.gg/qKgFEAbH">
-        <img src="https://img.shields.io/revolt/invite/qKgFEAbH?color=d61f3a&label=Stoat"
-            alt="Stoat">
-    </a>
-</p>
+## Problema
 
-<p align="center">
-  <a href="#compatibility">Compatibility</a> |
-  <a href="#development">Development</a> |
-  <a href="#building">Building</a> |
-  <a href="#download">Download</a> |
-  <a href="#support">Support</a> |
-  <a href="#license">License</a>
-</p>
+Muitos pequenos comércios têm dificuldade em organizar suas finanças, com entradas e saídas de produtos.
 
-## Compatibility
+Sem controle, o comerciante não sabe com certeza quanto ganha, quanto gasta e se o negócio está realmente lucrando no final do mês.
 
-The emulator is capable of running most commercial games at full speed, provided you meet the necessary hardware requirements.
+A Clean-Financy quer resolver isso com um sistema simples que traz clareza sobre a situação financeira do comércio.
 
-A list of supported games will be available in future. Please be patient.
+---
 
-Check out our [website](https://eden-emu.dev) for the latest news on exciting features, monthly progress reports, and more!
+## Público-Alvo
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/eden-emulator.svg)](https://repology.org/project/eden-emulator/versions)
+O público-alvo inclui:
 
-## Development
+* Pequenos negócios
 
-Most of the development happens on our Git server. It is also where [our central repository](https://git.eden-emu.dev/eden-emu/eden) is hosted. For development discussions, please join us on [Discord](https://discord.gg/HstXbPch7X) or [Stoat](https://stt.gg/qKgFEAbH).
-You can also follow us on [X (Twitter)](https://nitter.poast.org/edenemuofficial) for updates and announcements.
+* Comerciantes autônomos
 
-If you would like to contribute, we are open to new developers and pull requests. Please ensure that your work is of a high standard and properly documented. You can also contact any of the developers on Discord or Stoat to learn more about the current state of the emulator.
+* Micro-empresas
 
-See the [sign-up instructions](docs/SIGNUP.md) for information on registration.
+* Empreendedores que ainda controlam as finanças manualmente
 
-Alternatively, if you wish to add translations, go to the [Eden project on Transifex](https://app.transifex.com/edenemu/eden-emulator) and review [the translations README](./dist/languages).
+* Donos de negócio que não têm tempo ou conhecimento técnico para sistemas complexos
 
-## Documentation
+A Clean-Financy foi feita para quem precisa de algo rápido de aprender e que se encaixe na rotina de quem está sozinho no controle do negócio.
 
-We have a user manual! See our [User Handbook](./docs/user/README.md).
+## Proposta de Valor
 
-## Building
+A Clean-Financy usa tecnologia moderna para facilitar e automatizar a gestão do negócio por meio de um sistema prático e fácil de usar.
 
-See the [General Build Guide](docs/Build.md)
+A diferença está na simplicidade, automação e organização financeira, oferecendo ao pequeno comerciante algo que sistemas tradicionais normalmente não têm: facilidade de uso no dia a dia.
 
-For information on provided development tooling, see the [Tools directory](./tools)
+---
 
-## Download
+## Produto
 
-You can download the latest releases from [here](https://git.eden-emu.dev/eden-emu/eden/releases).
+O que está disponível é acesso ao sistema Clean-Financy, com funcionalidades como:
 
-Save us some bandwidth! We have [mirrors available](./docs/user/ThirdParty.md#mirrors) as well.
+* Registro de entradas e saídas
 
-## Support
+* Resumo do saldo do período
 
-If you enjoy the project and would like to support us financially, please check out our developers' [donation pages](https://eden-emu.dev/donations)!
+* Histórico de movimentações
 
-Any donations received will go towards things such as:
-* Switch consoles to explore and reverse-engineer the hardware
-* Switch games for testing, reverse-engineering, and implementing new features
-* Web hosting and infrastructure setup
-* Additional hardware (e.g. GPUs as needed to improve rendering support, other peripherals to add support for, etc.)
-* CI Infrastructure
+* Relatórios simples de desempenho
 
-If you would prefer to support us in a different way, please join our [Discord](https://discord.gg/HstXbPch7X) and talk to Camille or any of our other developers.
+* Lembretes financeiros
 
-## License
+* Categorias personalizáveis por tipo de negócio
 
-Eden is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt) file.
+As funcionalidades podem variar conforme o plano escolhido.
+
+## Preço
+
+O modelo é por assinatura:
+
+Plano Básico (gratuito): registro de entradas e saídas, resumo simples do saldo
+
+Plano Pro: R$ 19,90/mês, com relatórios completos, histórico estendido e lembretes financeiros
+
+Por exemplo, se o custo de manutenção do sistema por usuário for baixo, a maior parte da mensalidade do Plano Pro é margem para o negócio.
+
+Os valores são uma estimativa do projeto e podem mudar conforme a validação com comerciantes reais.
+
+## Experiência — MLP
+
+Para transformar o sistema em um Minimum Lovable Product (MLP), foram pensados elementos focados na experiência do usuário.
+
+### Agilidade no registro
+
+Poucos cliques entre abrir o sistema e registrar uma entrada ou saída.
+
+### Painel financeiro
+
+Um resumo visual simples mostrando a situação financeira do negócio no período.
+
+### Personalização por negócio
+
+O comerciante pode adaptar categorias de produto e tipo de movimentação de acordo com o seu tipo de comércio.
+
+### Confirmação de ações
+
+Mensagens claras confirmando cada registro, para o comerciante nunca ficar na dúvida se a informação foi salva.
+
+Esses elementos ajudam a transformar o sistema de uma ferramenta apenas funcional em algo que o comerciante realmente queira usar todos os dias.
+
+## MMP
+
+Essa versão é considerada um Minimum Marketable Product (MMP) porque reúne os elementos necessários para representar uma operação comercial:
+
+* Funcionalidades essenciais de controle financeiro
+
+* Público-alvo definido
+
+* Diferencial claro frente ao controle manual
+
+* Modelo de preço
+
+* Processo de contratação
+
+* Canais de divulgação
+
+* Experiência validada com usuários reais
+
+* Informações claras sobre o sistema e a empresa
+
+O sistema não é apenas um protótipo funcional. Foi planejado para ser oferecido e comercializado para comerciantes reais.
+
+## Validação
+
+Para validar a loja, será feito um teste com pelo menos 2 pessoas externas à equipe.
+
+Os participantes receberão a seguinte orientação:
+
+“Imagine que você encontrou esse sistema na internet e está pensando em assinar para controlar as finanças do seu comércio. Navegue e tente decidir se contrataria."
+
+Durante o teste, os participantes navegarão sem orientação sobre como utilizar o sistema.
+
+Após a navegação, serão feitas perguntas sobre:
+
+1. Entendimento do sistema
+
+2. Confiança
+
+3. Clareza do preço
+
+4. Processo de contratação
+
+5. Interesse pelo produto
+
+6. Qualidade da apresentação
+
+7. Elementos que chamaram atenção
+
+8. Possíveis mudanças
+
+9. Intenção de assinatura
+
+10. Motivos que poderiam impedir a contratação
+
+## Feedback
+
+*(A ser preenchido após a rodada de testes com os comerciantes.)*
+
+## Melhorias
+
+*(A ser definida a partir dos problemas identificados nos testes, com pelo menos duas melhorias implementadas na loja.)*
+
+## Divulgação
+
+Clean‑Financy quer usar vários canais para alcançar o público.
+
+### Instagram
+
+Clean‑Financy vai usar o Instagram para:
+
+* Mostrar o sistema em uso
+
+* Publicar textos sobre organização financeira para pequenos negócios
+
+* Apresentar novidades e melhorias
+
+### WhatsApp
+
+Clean‑Financy vai usar o WhatsApp para atender direto e apresentar o sistema a comerciantes da região, além de criar proximidade com associações comerciais locais.
+
+## Entrega
+
+Como Clean‑Financy é um sistema, a entrega é digital: o comerciante recebe acesso à plataforma assim que a assinatura é confirmada, sem necessidade de envio físico.
+
+## Acesso à Loja
+
+LINK DA LOJA
+
+## Processo de Contratação
+
+O processo de contratação previsto é:
+
+**1. Cliente acessa a loja**
+
+**2. Cliente conhece os planos disponíveis**
+
+**3. Cliente escolhe o plano**
+
+**4. Cliente cadastra o negócio no sistema**
+
+**5. Cliente confirma o pagamento (quando aplicável)**
+
+**6. Cliente recebe acesso à plataforma**
+
+## Equipe
+
+* João Mateus — Coordenador de Mercado
+
+* João Paulo — Coordenador de Marketing
+
+* Luis Guilherme — Garantia de Qualidade
+
+* João Emanoel — Designer
+
+* Keirryson Raffael — Desenvolvedor Full Stack
+
+## Plataforma
+
+Plataforma utilizada: Lovable
+
+## Conclusão
+
+Clean‑Financy foi criado com o objetivo de evoluir de uma sprint de pesquisa sobre finanças de pequenos negócios para uma solução com características de produto comercial.
+
+O projeto aplica os conceitos de MVP, MLP e MMP, mostrando a evolução do sistema funcional até uma versão pensada para ser apresentada ao mercado — Clean‑Financy não é uma loja de produtos físicos, mas um serviço de gestão financeira acessível para quem mais precisa dele: o pequeno comerciante.
